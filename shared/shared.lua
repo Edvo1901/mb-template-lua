@@ -5,7 +5,7 @@ function Debug(msg)
 end
 
 function Notify(message, type, source)
-    local title = Lang[Config.Language]["text"]["title"]
+    local title = Text("text", "title")
 
 	if Config.Notify == "okokNotify" then
 		if not source then

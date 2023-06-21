@@ -11,8 +11,9 @@ local Lang = {
     }
 }
 
-function Text(key, value)
+function Text(key, value, ...)
     if not key or not value then return end
-    if not Lang[Config.Language].key.value then return end
-    return Lang[Config.Language].key.value
+    local textTemplate = Lang[Config.Language][key][value]
+    if not textTemplate then return end
+    return string.format(textTemplate, ...)
 end
