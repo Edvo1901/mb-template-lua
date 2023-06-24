@@ -17,5 +17,5 @@ Config.Debug = false
 
 -- Language option.
 -- Please choose one of the following: "en" (English), "vn" (Vietnamese)
--- You can add your own language in locales/lang.lua
+-- You can add your own language in shared/locales.lua
 Config.Language = "en"
