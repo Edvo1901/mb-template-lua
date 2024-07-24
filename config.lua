@@ -19,3 +19,6 @@ Config.Debug = false
 -- Please choose one of the following: "en" (English), "vn" (Vietnamese)
 -- You can add your own language in shared/locales.lua
 Config.Language = "en"
+
+-- Inventory ("qb-inventory" or "ox_inventory")
+Config.Inventory = "qb-inventory"
